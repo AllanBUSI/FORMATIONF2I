@@ -1,0 +1,22 @@
+
+/* Ecran taille maxinum largeur 600 pixel */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+}
+
+/* Ecran taille mininum largeur 600 pixel */
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: red;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    body {
+        background-color: aqua;
+    }
+}
+  
+  

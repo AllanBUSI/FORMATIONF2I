@@ -1,0 +1,60 @@
+
+.carre-rouge {
+    width: 200px;
+    height: 200px;
+    background-color: red; 
+    animation: rouge 3s infinite;
+    margin-bottom: 10vh ;
+}
+
+@keyframes rouge {
+    from {
+        width: 200px;
+        height: 100px;
+        background-color: red;
+    } 
+    to {
+        width: 100px;
+        height: 200px;
+        background: linear-gradient(28deg, #f00 1%, #fff 100%);
+
+    }
+}
+
+.carre-vert {
+    width: 200px;
+    height: 200px;
+    animation: vert 3s infinite;
+    background-color: green; 
+}
+
+@keyframes vert {
+    0% {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    } 
+    50% {
+        width: 100px;
+        height: 100px;
+        background-color: greenyellow;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(28deg, green, #fff 100%);
+
+    }
+}
+
+.carre-noir {
+    width: 200px;
+    height: 200px;
+    background-color: black; 
+}
+
+.carre-bleu{
+    width: 200px;
+    height: 200px;
+    background-color: blue;    
+}
